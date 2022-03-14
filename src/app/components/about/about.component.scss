@@ -67,7 +67,12 @@
       .right-part{
         p{
           width: 100%;
-          margin: 0 !important;
+          margin: none;
+          margin-right: 5px;
+          text-align: justify;
+          word-spacing: none;
+          color: var(--textColorSecondary);
+          word-wrap: none;
         }
       }
     }

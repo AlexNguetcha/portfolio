@@ -19,10 +19,7 @@
     p {
       display: block;
       margin: 3%;
-      text-align: justify;
-      word-spacing: .1em;
       color: var(--textColorSecondary);
-      word-wrap: break-word;
     }
 
     .project-container{
@@ -37,7 +34,8 @@
 
             width: 30%;
             border-radius: 4px;
-            box-shadow: 3px 3px 3px 3px rgba($color: #000000, $alpha: .35);
+            
+            box-shadow: 3px 3px 5px var(--textColorSecondary);
 
             .card-img-top{
                 border-radius: 4px;
@@ -82,8 +80,6 @@
                 
             }
 
-            
-
         }
     }
   
@@ -96,6 +92,21 @@
         .project-container {
             .project{
                 width: 95%;
+                
+            .card-technos{
+                display: flex;
+                margin: 5px;
+                max-width: 100%;
+                gap: 5px;
+                padding: 0%;
+                div{
+                    border: 1px solid var(--blue);
+                    border-radius: 15px;
+                    padding: 1%;
+                    color: var(--blue);
+                }
+                
+            }
             }
         }
       }

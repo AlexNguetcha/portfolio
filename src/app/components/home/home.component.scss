@@ -67,17 +67,16 @@
     .home{
         .home-container{
             flex-direction: column;
+            margin-top: 15px;
 
             .left-part{
                 margin-top: 40px;
-                p{
-                    .name{
-                        font-size: 30px;
-                    }
-                    .dev{
-                        font-size: 20px;
-                    }
-
+                width: 90%;
+                .name{
+                    font-size: 30px;
+                }
+                .dev{
+                    font-size: 20px;
                 }
                 button{
                     margin-top: 30px;
