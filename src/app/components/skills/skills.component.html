@@ -12,7 +12,7 @@
 
             <div class="item" *ngFor="let hat of hats" id="{{hat.name}}" (click)="active(hat)">
                 <i class="{{hat.icon}}"></i>
-                &nbsp; &nbsp; {{hat.name}}
+                &nbsp; &nbsp; <span>{{hat.name}}</span>
             </div>
             
         </div>
@@ -20,7 +20,7 @@
         <div class="right-part" *ngIf="activeHat">
             <div class="right-part-container">
                 <div class="card" *ngFor="let techno of activeHat.technos">
-                    <img src="../../../assets/logos/{{techno|lowercase|trim}}.svg" alt="">
+                    <img src="./assets/logos/{{techno|lowercase|trim}}.svg" alt="">
                     <span>{{techno}}</span>
                 </div>
             </div>

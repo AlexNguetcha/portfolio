@@ -108,31 +108,60 @@
 
 @media only screen and (max-width:600px) {
   .skills{
-    margin: 0;
+    margin: 0px;
+    p{
+      display: block;
+      margin-left: 0;
+      margin: 10px;
+      width: 90%;
+      text-align: justify;
+      word-spacing: initial;
+      color: var(--textColorSecondary);
+      word-wrap: break-word;
+    }
     &-container {
       display: grid;
-      grid-template-columns: repeat(2,  minmax(0, 1fr));
-      
+      grid-template-columns: repeat(1,  minmax(0, 1fr));
       grid-gap: 1rem;
+      margin: 0 !important;
+      padding: 0px !important;
   
       .left-part {
         display: flex;
-        flex-direction: column;
-        margin-top: 10px;
+        flex-direction: row;
+        cursor: pointer;
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+        border-top: 2px solid rgba($color: #000000, $alpha: .2);
+        box-sizing: border-box;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.2s;
+        color: var(--textColorSecondary);
         
         .item {
-          cursor: pointer;
-          padding: 5px;
-          width: 60%;  
-          font-size: 16px;
-         
-        }
+          display: block;
+          
+          margin: 0 !important;
+          border: none;
+          border-top: 2px solid rgba($color: #000000, $alpha: .2);
+          cursor: pointer;  
+          font-size: 0.8rem;
+          display: flex;
+          flex-direction: row;
+
+
+          span{
+            font-size: 9px;
+          }
+
+        }    
   
   
       }
   
       .right-part{
-        margin-right: 5%;
+        margin: 15px;
       
         .right-part-container{
           display: grid;
