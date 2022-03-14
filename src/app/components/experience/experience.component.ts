@@ -13,25 +13,25 @@ export class ExperienceComponent implements OnInit {
     this.visibleIndex = 0;
     this.experiences = [
       {
-        title: "Experience numero 1",
+        title: "Experience number 1",
         startAt: "Jan/2017",
         endAt: "Jan/2018",
         tasks : [
-          "Responsible for the support of the faculty administrations systems",
-           "Responsible for network support and communication of the faculty",
-           "User interface design and graphic design",
-           "Database administration"
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam"
           ]
-      },
+      }, 
       {
-        title: "Experience numero 2 Responsible for the support of the faculty administrations systems",
-        startAt: "Jan/2017",
-        endAt: "Jan/2018",
+        title: "Experience number 2 Responsible for the support of the faculty administrations systems",
+        startAt: "Jan/2018",
+        endAt: "Jan/2020",
         tasks : [
-          "Responsible for the support of the faculty administrations systems",
-           "Responsible for network support and communication of the faculty",
-           "User interface design and graphic design",
-           "Database administration"
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
+           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam"
           ]
       }
     ];
