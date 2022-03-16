@@ -13,7 +13,7 @@ export class AppComponent {
     window.onscroll = ()=>{
       this.checkScroll();
     }
-  }
+  } 
 
   checkScroll():void{
     const elementId = ["home", "about", "skills", "experience", "projects", "contact"];

@@ -11,11 +11,11 @@
                 <div class="card-header">
                     <h4 class="card-title">{{project.name}}</h4>
                     <div class="card-links">
-                        <a href="{{project.github}}">
-                            <i *ngIf="project.github" class="fab fa-github" aria-hidden="true"></i>
+                        <a *ngIf="project.github" href="{{project.github}}">
+                            <i  class="fab fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="{{project.link}}">
-                            <i *ngIf="project.link" class="fa fa-link" aria-hidden="true"></i>
+                        <a *ngIf="project.link" href="{{project.link}}">
+                            <i  class="fa fa-link" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>

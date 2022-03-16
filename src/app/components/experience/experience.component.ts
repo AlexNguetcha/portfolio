@@ -13,25 +13,27 @@ export class ExperienceComponent implements OnInit {
     this.visibleIndex = 0;
     this.experiences = [
       {
-        title: "Experience number 1",
-        startAt: "Jan/2017",
-        endAt: "Jan/2018",
+        title: "Full Stack Developer : Food delivery app",
+        startAt: "June/2020",
+        endAt: "November/2020",
         tasks : [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam"
+          "Developing front end dashboard architecture",
+           "Designing user interactions on dashboard",
+           "Creating severs and databases for functionnality",
+           "Designing and developing APIs",
+           "Designind and developing android mobile application"
           ]
       }, 
       {
-        title: "Experience number 2 Responsible for the support of the faculty administrations systems",
-        startAt: "Jan/2018",
-        endAt: "Jan/2020",
+        title: "Full Stack Developer : School help application",
+        startAt: "August/2019",
+        endAt: "December/2019",
         tasks : [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam",
-           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vitae ipsum nam"
+          "Developing front end dashboard and website architecture",
+           "Designing user interactions on dashboard",
+           "Creating severs and databases for functionnality",
+           "Designing and developing APIs",
+           "Designind and developing android mobile application"
           ]
       }
     ];
